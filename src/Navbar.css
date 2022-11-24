@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main-nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 18%;
+    border-bottom: 2px solid #eeeeee;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+ .instalogo{
+    height: 35px;
+    object-fit: contain;
+}
+
+.search{
+    width: 250px;
+    background-color: #eeeeee;
+    padding: 3px 16px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.search input{
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: #eeeeee;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+} 
+.listing{
+    margin-right: 20px;   
+}
+.p-icon{
+    margin-right: 0;
+}
+
+.sizing{
+    font-size: 22px;
+    color: black;
+}
+.sizing:hover{
+    color: blue;
+}
+.profile{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    object-fit: cover;
+}
